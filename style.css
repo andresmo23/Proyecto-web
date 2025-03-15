@@ -6,10 +6,57 @@
 
 body{
     font-family: "Inter", sans-serif;
+    background-color: var(--white);
 }
 
 :root{
     --white: #fff;
     --black: #000000;
     --color-p: #474546;
+    --secondary: #E6E6E6;
+}
+
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.btn-primary{
+    background-color: var(--black);
+    color: var(--white);
+    width: 141px;
+    height: 76px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-secondary{
+    background-color: var(--secondary);
+    color: var(--black);
+    width: 306px;
+    height: 60px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.paragraph{
+    color: var(--color-p);
+    font-size: 1.5rem;
+}
+
+.hero-title{
+    font-size: 4rem;
+}
+
+.subtitle-heading{
+    font-size: 3rem
+}
+
+.subtitle{
+    font-size: 1.5rem;
 }
